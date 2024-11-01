@@ -1,0 +1,11 @@
+from Banklibrary import Cuenta
+
+# instancia de Cuenta
+cuenta1 = Cuenta(bank_account=1234, balance=0)
+
+# Realizar operaciones y mostrar balance
+cuenta1.deposito()      # Depositar dinero
+cuenta1.retirar()        # Retirar dinero
+
+# Obtener y mostrar el balance
+print(cuenta1.get_balance()) 
